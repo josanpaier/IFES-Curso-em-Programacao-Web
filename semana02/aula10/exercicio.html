@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+    <form>
+        <p>
+            <label for="txtNome">Nome</label><br>
+            <input type="text" name="Nome" id="txtNome">
+        </p>
+        <p>
+            <label for="txtEmail">E-mail</label><br>
+            <input type="email" name="Email" id="txtEmail">
+        </p>
+        <p>
+            <label for="txtURL">URL Portfolio Online</label><br>
+            <input type="url" name="URL" id="txtURL">
+        </p>
+        <p>
+            <label for="txtDataNascimento">Data de Nascimento</label><br>
+            <input type="date" name="DataNascimento" id="txtDataNascimento">
+        </p>
+        <p>
+            <label for="txtQtDep">Qtde Dependentes</label><br>
+            <input type="number" name="Qt" id="txtQtDep">
+        </p>
+        <p>
+            <label for="txtCor">Cor Preferida</label><br>
+            <input type="color" name="Cor" id="txtCor">
+        </p>
+        <p>
+            <label for="txtTel">Telefone</label><br>
+            <input type="tel" name="Telefone" id="txtTel">
+        </p>
+        <p>
+            <input type="checkbox" name="Promo" id="txtPromo">
+            <label for="txtPromo">Receber promoções</label>            
+        </p>
+
+        <p>
+            <label for="slctEstado">Estado</label><br>
+            <select name="Estado" id="slctEstado">
+                <optgroup label="Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="RO">Rondônia</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>                
+            </select>
+        </p>        
+        <p>
+            <label for="txtMiniBio">Mini-Biografia</label><br>
+            <textarea name="MiniBio" id="txtMiniBio" cols="30" rows="10"></textarea>
+        </p>
+        <p>            
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

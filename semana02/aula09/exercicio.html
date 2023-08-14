@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+    <form method="post">
+        <p>
+            <label for="txtNomeDono">Nome do dono</label><br>
+            <input type="text" name="NomeDono" id="txtNomeDono" placeholder="Nome do dono">
+        </p>
+        <fieldset>
+            <legend>Tipo de animal</legend>
+            <input type="radio" name="Animal" id="rdCachorro" value="K">
+            <label for="rdCachorro">Cachorro</label><br>
+            <input type="radio" name="Animal" id="rdCoelho" value="C">
+            <label for="rdCoelho">Coelho</label><br>
+            <input type="radio" name="Animal" id="rdGato" value="G">
+            <label for="rdGato">Gato</label><br>
+            <input type="radio" name="Animal" id="rdPassaro" value="P">
+            <label for="rdPassaro">Pássaro</label>
+        </fieldset>
+        <p>
+            <label for="txtTipoServico">Tipo de serviço</label><br>
+            <input type="text" name="TipoServico" id="txtTipoServico" placeholder="Tipo de serviço">
+        </p>        
+        <p>
+            <label for="txtObs">Observações</label><br>
+            <textarea name="Obs" id="txtObs" cols="30" rows="10"></textarea>
+        </p>
+        <p>            
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

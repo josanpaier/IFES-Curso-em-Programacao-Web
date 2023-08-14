@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Input</title>
+</head>
+<body>
+    <h1>Tipos de Input</h1>
+    <hr>
+    <form method="get" action="nomearquivo">
+        <input type="text" name="Placa" id="txtPlaca" required placeholder="ABC-1234" pattern="[A-Z]{3}-[0-9]{4}" autocomplete="on"><br>
+        <input type="date" min="1979-07-01" max="1980-05-20"><br>
+        <input type="datetime-local" min="1979-07-01T00:00:00" max="1980-05-20T17:00:00"><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

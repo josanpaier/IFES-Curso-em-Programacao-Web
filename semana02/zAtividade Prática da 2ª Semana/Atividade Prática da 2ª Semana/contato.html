@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- 1. Metainformações da página -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2. Título da página -->
+    <title>Meu Portfólio :: Contato</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/header.svg" alt="Josan Paier Desenvolvedor Web" width="100%">
+    </header>
+    <hr>
+    <!-- 3. Barra de navegação superior completa, com linhas superior e inferior -->
+    <nav>
+        <h3>
+            <a href="index.html">Principal</a> ::
+            <!-- 2. Link para a página Quem Sou -->
+            <a href="quemsou.html">Quem Sou</a> ::
+            <!-- 3. Link para a página Projetos -->
+            <a href="projetos.html">Projetos</a> ::
+            <!-- 4. Link para a página Contato -->
+            <i><a href="contato.html">Contato</a></i>
+        </h3>
+    </nav>
+    <hr>
+    <section>
+    <!-- 4. Título de primeiro nível "Contato" -->
+    <h1>Contato</h1>
+    <!-- 5. Abertura de elemento contêiner de lista não-ordenada -->
+    <ul>
+        <li>Residente em Vitória/ES</li>
+        <!-- 6. Item de lista contendo link para "contato.html" -->
+        <li><a href="mailto:contato@email.com" target="_blank">contato@email.com</a></li>
+        <!-- 7. Item de lista contendo telefone (27) 99999-9999 -->
+        <li>(27) 99999-9999</li>
+        <li><a href="https://www.linkedin/in/fulano">LinkedIn</a></li>
+    <!-- 8. Fechamento de elemento contêiner de lista não-ordenada -->
+    </ul>
+    </section>
+    <hr>
+    <h3>Formulário de Contato</h3>    
+    <form>
+        <p>
+            <label for="txtNome">Nome</label><br>
+            <input type="text" name="Nome" id="txtNome">
+        </p>
+        <p>
+            <label for="slctAssunto">Assunto</label><br>
+            <select name="Assunto" id="slctAssunto">                
+                    <option selected disabled>Selecione o assunto</option>
+                    <option value="SU">Sugestão</option>
+                    <option value="RE">Reclamação</option>
+                    <option value="OR">Orçamento</option>
+                    <option value="OU">Outros</option>                
+            </select>
+        </p>
+        <p>
+            <label for="txtMensagem">Mensagem</label><br>
+            <textarea name="Mensagem" id="txtMensagem" cols="30" rows="5"></textarea>
+        </p>        
+        <p>
+            <input type="checkbox" name="Newletter" id="txtNewletter">
+            <label for="txtNewletter">Deseja receber minha newletter?</label>            
+        </p>
+        <p>Onde me encontrou?<br>            
+            <input type="radio" name="Onde" id="rdYouTube" value="Y">
+            <label for="rdYouTube">YouTube</label><br>
+            <input type="radio" name="Onde" id="rdGoogle" value="G">
+            <label for="rdGoogle">Google</label><br>
+            <input type="radio" name="Onde" id="rdBing" value="B">
+            <label for="rdBing">Bing</label><br>
+            <input type="radio" name="Onde" id="rdOutros" value="O">
+            <label for="rdOutros">Outros</label><br>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <hr>
+    <!-- 9. Parágrafo com informações de copyright com linha superior -->
+    <!-- 10. Parágrafo com imagem "ifes.png" que está na pasta img, com 96 de altura -->
+    <footer>    
+        <p>
+            Copyright &copy; 2023
+        </p>
+        <p>
+            <!-- 11. Imagem "ifes.png" que está na pasta img, com 96 de altura -->
+            <img src="img/ifes.png" alt="IFES" height="96">
+        </p>
+    </footer>
+</body>
+
+</html>
