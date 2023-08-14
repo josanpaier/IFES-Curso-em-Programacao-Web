@@ -1,0 +1,16 @@
+div {
+    height: 300px;    
+    width: 300px;
+    position: absolute;
+}
+
+#div1 {
+    background-color: blue;    
+}
+
+#div2 {
+    background-color: green;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+}

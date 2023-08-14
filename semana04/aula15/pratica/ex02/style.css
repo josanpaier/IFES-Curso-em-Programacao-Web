@@ -1,0 +1,9 @@
+img {
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+img:hover {
+    opacity: 1;
+    transition: 0.7s;
+}

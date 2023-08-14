@@ -1,0 +1,18 @@
+body {
+    margin: 30px;
+}
+
+p>img {
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    height: 200px;
+    float: left;
+    /* float: right; */
+}
+
+p {
+    font-size: 20px;
+    /* text-align: right; */
+    text-align: left;
+    overflow: hidden;
+}
