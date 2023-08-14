@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&family=Titillium+Web&display=swap');
+
+* {
+    font-family: "Montserrat";
+    color: gray;
+}
+
+header h2 {
+    background-color: rgb(48, 47, 47);    
+    padding: 20px;
+    color: white;
+}
+
+a {
+    color: green;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#p1 {
+    border-left: 3px solid green;
+    padding: 15px;
+}
+
+p>span {
+    font-weight: bold;
+}
+
+/* li::marker {
+    content: "✅ ";
+    font-size: 90%;
+} */
+
+ul>li {
+    list-style-image: url('check_list.png');
+    margin-left: 30px;
+}
+
+footer {
+    background-color: rgb(48, 47, 47);    
+    padding: 20px;
+    text-align: center;
+}
+
+footer>span {
+    display: block;
+    padding: 3px;
+    color: white;
+}

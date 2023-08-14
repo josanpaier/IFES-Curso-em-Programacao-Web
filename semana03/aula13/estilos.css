@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap&family=Sofia&display=swap'); */
+
+body, a {
+    color: gray;
+}
+
+h1 {
+    /* font-size: 8vw;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: "Quicksand";
+    font-family: "Sofia";
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps; */
+    text-align: center;
+    font: normal small-caps bold 24px/60px "Sofia";
+}
+
+p {
+    text-align: left;
+    text-decoration: underline wavy;
+    text-transform: capitalize;
+    text-indent: 3rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    white-space: normal;
+}
+
+a:link { /*cor herdada pelo body, a {} definido na linha 4*/
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:visited { /*cor aplicada aos links visitados*/
+    color: blue;
+}
+
+a:hover { /*cor aplicada ao passar o mouse sobre o elemento*/
+    color: red;
+    cursor: pointer;
+    background-color: black;
+}
+
+a:active { /*cor aplicada ao clicar no mouse sobre o elemento*/
+    color: gray;
+}
+
+a {
+    border: solid 1px black;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+ul {
+    /* list-style-type: none;
+    margin: 0;
+    padding: 0; */
+    list-style-image: url("check_list.png");
+}
+
+li {
+    line-height: 35px;
+    /* display: inline-block; */
+}
